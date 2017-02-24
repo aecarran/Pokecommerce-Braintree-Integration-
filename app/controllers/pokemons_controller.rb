@@ -3,9 +3,9 @@ class PokemonsController < ApplicationController
   require "braintree"
 
   Braintree::Configuration.environment = :sandbox
-  Braintree::Configuration.merchant_id = ENV['MERCHANT_ID']
-  Braintree::Configuration.public_key = ENV['PUBLIC_KEY']
-  Braintree::Configuration.private_key = ENV['PRIVATE_KEY']
+  Braintree::Configuration.merchant_id = "qbjzpd8jmysrspzq"
+  Braintree::Configuration.public_key = "mcywqzzwxjmm4g67"
+  Braintree::Configuration.private_key = "cf205642bb85d0cfdba389a738f0dee4"
 
   # GET /pokemons
   # GET /pokemons.json
