@@ -12,7 +12,7 @@ default: &default
 development:
   <<: *default
   database: onlinestore
-  username: LexiPoo
+  username: postgres
   password: 211129
 
 # Warning: The database defined as "test" will be erased and
@@ -21,11 +21,11 @@ development:
 test:
   <<: *default
   database: onlinestore
-  username: LexiPoo
+  username: postgres
   password: 211129
 
 production:
   <<: *default
   database: onlinestore
-  username: LexiPoo
+  username: postgres
   password: 211129
